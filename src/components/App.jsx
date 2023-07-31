@@ -26,7 +26,7 @@ const App = () => {
     <div>
       <Header />
       <CreateArea 
-        onAdd = {addNote}
+        onAdd = {addNote}                                   
       />
 
       {notes.map((noteItem,index) => {
